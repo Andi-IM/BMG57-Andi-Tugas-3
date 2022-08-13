@@ -14,9 +14,3 @@ ENTITY_REBIRTH {
 		Test(Message = $obj1.dies)
 	}
 }
-
-ENTITY_DAMAGE {
-	If (not false) {
-		ShowSystemChat(key = "2775ec45-8dac-4780-8347-e11e4086bfa9")
-	}
-}
