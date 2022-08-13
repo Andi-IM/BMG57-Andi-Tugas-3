@@ -1,0 +1,4 @@
+PART_CLICKED {
+	ShowSystemChat(entity = $from, key = "af78a7ad-55ab-4d02-b43c-91a88eb28111")
+	GameOver()
+}

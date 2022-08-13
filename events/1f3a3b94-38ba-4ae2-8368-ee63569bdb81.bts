@@ -1,0 +1,4 @@
+PART_CLICKED {
+	$from.position = GetEntityPosition(entity = $from)
+	Test(Message = $from.position)
+}

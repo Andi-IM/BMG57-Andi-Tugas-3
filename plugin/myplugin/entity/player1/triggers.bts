@@ -1,0 +1,22 @@
+ENTITY_DIE {
+	$obj1.dies = $obj1.dies + 1
+	If (IsEntityAlive(entity = $obj2)) {
+		ShowSystemChat(entity = $obj1, key = "6cbd87e0-c32f-4622-8ab9-a3bc354c5789")
+		GameOver()
+	}
+}
+
+ENTITY_REBIRTH {
+		If ($obj1.dies > 2) {
+		ShowSystemChat(entity = $obj1, key = "aaa40b42-5fc2-436c-ad50-773312825f33")
+		GameOver()
+	} ElseIf (false) {
+		Test(Message = $obj1.dies)
+	}
+}
+
+ENTITY_DAMAGE {
+	If (not false) {
+		ShowSystemChat(key = "2775ec45-8dac-4780-8347-e11e4086bfa9")
+	}
+}
